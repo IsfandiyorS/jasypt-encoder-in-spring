@@ -1,0 +1,27 @@
+#server:
+#  port: 8080
+#
+#spring:
+#  config:
+#    import: optional:file:.env[.properties]
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/learn_things
+#    password: ENC(F3pjl/6Fz0ji+cJL5Cn+CMVMX3e+/5Uq)
+#    username: ENC(L6+lAhLtUfRnm6XtYd7lZN4FUoMthO5l)
+#    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    generate-ddl: true
+#    show-sql: true
+#
+#jasypt:
+#  encryptor:
+#    password: secret_key
+#    algorithm: PBEWithMD5AndTripleDES
+#    key-obtention-iterations: 1000
+#    pool-size: 1
+#    salt-generator-classname: org.jasypt.salt.RandomSaltGenerator
+#    string-output-type: base64
+#    iv-generator-classname: org.jasypt.iv.NoIvGenerator
